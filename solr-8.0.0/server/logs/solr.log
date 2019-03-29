@@ -1,0 +1,239 @@
+2019-03-29 02:21:23.057 INFO  (main) [   ] o.e.j.u.log Logging initialized @748ms to org.eclipse.jetty.util.log.Slf4jLog
+2019-03-29 02:21:23.194 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2019-03-29 02:21:23.195 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_191-b12
+2019-03-29 02:21:23.214 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Fluig/source/looking-code/solr-8.0.0/server/contexts/] at interval 0
+2019-03-29 02:21:23.663 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2019-03-29 02:21:23.663 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2019-03-29 02:21:23.663 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2019-03-29 02:21:23.663 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2019-03-29 02:21:23.708 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2019-03-29 02:21:23.730 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2019-03-29 02:21:23.733 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.0.0
+2019-03-29 02:21:23.733 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2019-03-29 02:21:23.733 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Fluig\source\looking-code\solr-8.0.0
+2019-03-29 02:21:23.734 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2019-03-29T02:21:23.734Z
+2019-03-29 02:21:23.750 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Fluig\source\looking-code\solr-8.0.0\server\solr
+2019-03-29 02:21:23.751 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Fluig\source\looking-code\solr-8.0.0\server\solr\solr.xml
+2019-03-29 02:21:23.797 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@49e202ad, but no JMX reporters were configured - adding default JMX reporter.
+2019-03-29 02:21:24.133 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2019-03-29 02:21:24.419 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@45312be2[provider=null,keyStore=null,trustStore=null]
+2019-03-29 02:21:24.519 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for SslContextFactory@52066604[provider=null,keyStore=null,trustStore=null]
+2019-03-29 02:21:24.635 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2019-03-29 02:21:24.636 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2019-03-29 02:21:24.681 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@49e202ad
+2019-03-29 02:21:24.682 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@49e202ad
+2019-03-29 02:21:24.685 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@49e202ad
+2019-03-29 02:21:24.703 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath C:\Fluig\source\looking-code\solr-8.0.0\server\solr
+2019-03-29 02:21:25.066 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@6a2b953e{/solr,file:///C:/Fluig/source/looking-code/solr-8.0.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Fluig\source\looking-code\solr-8.0.0\server/solr-webapp/webapp}
+2019-03-29 02:21:25.077 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@65e61854{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-03-29 02:21:25.077 INFO  (main) [   ] o.e.j.s.Server Started @2774ms
+2019-03-29 02:21:25.531 INFO  (qtp1014166943-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=46
+2019-03-29 02:21:36.543 INFO  (qtp1014166943-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=31
+2019-03-29 02:21:36.588 INFO  (qtp1014166943-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=28
+2019-03-29 02:21:36.596 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=fluig&action=STATUS&wt=json} status=0 QTime=0
+2019-03-29 02:21:36.683 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.h.a.CoreAdminOperation core create command name=fluig&action=CREATE&instanceDir=fluig&wt=json
+2019-03-29 02:21:36.730 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.c.SolrResourceLoader [fluig] Added 59 libs to classloader, from paths: [/C:/Fluig/source/looking-code/solr-8.0.0/contrib/clustering/lib, /C:/Fluig/source/looking-code/solr-8.0.0/contrib/extraction/lib, /C:/Fluig/source/looking-code/solr-8.0.0/contrib/langid/lib, /C:/Fluig/source/looking-code/solr-8.0.0/contrib/velocity/lib, /C:/Fluig/source/looking-code/solr-8.0.0/dist]
+2019-03-29 02:21:36.851 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.0.0
+2019-03-29 02:21:36.943 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.IndexSchema [fluig] Schema name=default-config
+2019-03-29 02:21:37.318 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2019-03-29 02:21:37.350 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.c.CoreContainer Creating SolrCore 'fluig' using configuration from instancedir C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig, trusted=true
+2019-03-29 02:21:37.367 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.fluig' (registry 'solr.core.fluig') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@49e202ad
+2019-03-29 02:21:37.379 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.c.SolrCore [[fluig] ] Opening new SolrCore at [C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig], dataDir=[C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig\data\]
+2019-03-29 02:21:37.501 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2019-03-29 02:21:37.896 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2019-03-29 02:21:37.896 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2019-03-29 02:21:37.910 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2019-03-29 02:21:37.910 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2019-03-29 02:21:37.925 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@332a257[fluig] main]
+2019-03-29 02:21:37.933 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig\conf
+2019-03-29 02:21:37.951 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2019-03-29 02:21:37.957 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2019-03-29 02:21:37.992 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2019-03-29 02:21:37.992 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1629304754528059392
+2019-03-29 02:21:37.998 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@332a257[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-03-29 02:21:37.998 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:21:37.998 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2019-03-29 02:21:38.003 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=fluig&action=CREATE&instanceDir=fluig&wt=json} status=0 QTime=1320
+2019-03-29 02:21:38.008 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@332a257[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2019-03-29 02:21:42.349 INFO  (qtp1014166943-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553826102276} status=0 QTime=0
+2019-03-29 02:21:42.395 INFO  (qtp1014166943-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=45
+2019-03-29 02:21:42.438 INFO  (qtp1014166943-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=38
+2019-03-29 02:21:43.913 INFO  (qtp1014166943-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553826102276} status=0 QTime=0
+2019-03-29 02:21:43.921 INFO  (qtp1014166943-17) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1553826103906} status=0 QTime=4
+2019-03-29 02:21:43.922 INFO  (qtp1014166943-21) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/replication params={wt=json&command=details&_=1553826103907} status=0 QTime=4
+2019-03-29 02:21:43.927 INFO  (qtp1014166943-19) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1553826102277&ts=1553826102277} status=503 QTime=1
+2019-03-29 02:21:44.018 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/admin/system params={wt=json&_=1553826103906} status=0 QTime=96
+2019-03-29 02:21:44.018 INFO  (qtp1014166943-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=103
+2019-03-29 02:22:14.847 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig\conf\managed-schema
+2019-03-29 02:22:14.904 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[003 (1629304793190105088)]} 0 180
+2019-03-29 02:22:14.920 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1629304793249873920,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-29 02:22:14.925 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@53689bfc commitCommandVersion:1629304793249873920
+2019-03-29 02:22:15.096 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@1f489920[fluig] main]
+2019-03-29 02:22:15.098 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-29 02:22:15.099 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1f489920[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826134979}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:22:15.099 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:22:15.102 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@1f489920[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826134979}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:22:15.107 INFO  (qtp1014166943-22) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 183
+2019-03-29 02:22:32.922 INFO  (qtp1014166943-38) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553826102276} status=0 QTime=0
+2019-03-29 02:22:32.975 INFO  (qtp1014166943-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=52
+2019-03-29 02:22:36.396 INFO  (qtp1014166943-20) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=23
+2019-03-29 02:22:59.365 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 0
+2019-03-29 02:22:59.365 ERROR (qtp1014166943-16) [   x:fluig] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: ERROR: [doc=33#33] Error adding field 'age'='DASDAS' msg=For input string: "DASDAS"
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:220)
+	at org.apache.solr.update.AddUpdateCommand.getLuceneDocument(AddUpdateCommand.java:105)
+	at org.apache.solr.update.DirectUpdateHandler2.updateDocOrDocValues(DirectUpdateHandler2.java:968)
+	at org.apache.solr.update.DirectUpdateHandler2.doNormalUpdate(DirectUpdateHandler2.java:342)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:289)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:236)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:76)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.NestedUpdateProcessorFactory$NestedUpdateProcessor.processAdd(NestedUpdateProcessorFactory.java:79)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:995)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1216)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:700)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:75)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:92)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:110)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$StreamingCodec.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:327)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$StreamingCodec.readIterator(JavaBinUpdateRequestCodec.java:280)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:335)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:280)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$StreamingCodec.readNamedList(JavaBinUpdateRequestCodec.java:235)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:300)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:280)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:193)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:126)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:123)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:70)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:199)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2559)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:516)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:394)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:340)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1602)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:540)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1588)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1345)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:480)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1557)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1247)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:220)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:502)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "DASDAS"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.parseLong(Long.java:631)
+	at org.apache.solr.schema.LongPointField.createField(LongPointField.java:154)
+	at org.apache.solr.schema.PointField.createFields(PointField.java:250)
+	at org.apache.solr.update.DocumentBuilder.addField(DocumentBuilder.java:65)
+	at org.apache.solr.update.DocumentBuilder.toDocument(DocumentBuilder.java:171)
+	... 83 more
+
+2019-03-29 02:23:23.891 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:26.691 INFO  (qtp1014166943-24) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:29.095 INFO  (qtp1014166943-24) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553826102276} status=0 QTime=0
+2019-03-29 02:23:29.114 INFO  (qtp1014166943-17) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1553826209076} status=0 QTime=16
+2019-03-29 02:23:29.148 INFO  (qtp1014166943-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=52
+2019-03-29 02:23:29.775 INFO  (qtp1014166943-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1553826102276} status=0 QTime=0
+2019-03-29 02:23:29.810 INFO  (qtp1014166943-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1553826102277} status=0 QTime=34
+2019-03-29 02:23:31.099 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:35.596 INFO  (qtp1014166943-18) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[003 (1629304877844791296)]} 0 2
+2019-03-29 02:23:35.611 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1629304877860519936,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-29 02:23:35.611 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@53689bfc commitCommandVersion:1629304877860519936
+2019-03-29 02:23:35.721 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@1db7f1f6[fluig] main]
+2019-03-29 02:23:35.721 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-29 02:23:35.721 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1db7f1f6[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:23:35.721 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:23:35.721 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@1db7f1f6[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:23:35.721 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 111
+2019-03-29 02:23:39.587 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:41.683 INFO  (qtp1014166943-18) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:42.114 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=1 status=0 QTime=0
+2019-03-29 02:23:49.035 INFO  (qtp1014166943-18) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[004 (1629304891936604160)]} 0 2
+2019-03-29 02:23:49.050 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1629304891952332800,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-29 02:23:49.050 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@53689bfc commitCommandVersion:1629304891952332800
+2019-03-29 02:23:49.160 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@76d3364[fluig] main]
+2019-03-29 02:23:49.160 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-29 02:23:49.160 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@76d3364[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_2(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826229050}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:23:49.160 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:23:49.160 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@76d3364[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_2(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826229050}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:23:49.160 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 110
+2019-03-29 02:23:51.395 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=2 status=0 QTime=0
+2019-03-29 02:23:59.836 INFO  (qtp1014166943-19) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[004 (1629304903261224960)]} 0 1
+2019-03-29 02:23:59.856 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1629304903283245056,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-29 02:23:59.856 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@53689bfc commitCommandVersion:1629304903283245056
+2019-03-29 02:24:00.044 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@73b97983[fluig] main]
+2019-03-29 02:24:00.044 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-29 02:24:00.044 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@73b97983[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_3(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826239859}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:24:00.044 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:24:00.044 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@73b97983[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_3(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826239859}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:24:00.044 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 199
+2019-03-29 02:24:02.507 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=2 status=0 QTime=0
+2019-03-29 02:36:00.431 INFO  (qtp1014166943-21) [   x:fluig] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at C:\Fluig\source\looking-code\solr-8.0.0\server\solr\fluig\conf\managed-schema
+2019-03-29 02:36:00.447 INFO  (qtp1014166943-21) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[123456 (1629305658860896256)]} 0 42
+2019-03-29 02:36:00.463 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1629305658894450688,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2019-03-29 02:36:00.463 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@53689bfc commitCommandVersion:1629305658894450688
+2019-03-29 02:36:00.541 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.s.SolrIndexSearcher Opening [Searcher@21204358[fluig] main]
+2019-03-29 02:36:00.541 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2019-03-29 02:36:00.541 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@21204358[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_3(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826239859}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_4(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826960463}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:36:00.541 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2019-03-29 02:36:00.556 INFO  (searcherExecutor-10-thread-1-processing-x:fluig) [   x:fluig] o.a.s.c.SolrCore [fluig] Registered new searcher Searcher@21204358[fluig] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826215627}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_3(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826239859}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]) Uninverting(_4(8.0.0):C1:[diagnostics={os=Windows 10, java.vendor=Oracle Corporation, java.version=1.8.0_191, java.vm.version=25.191-b12, lucene.version=8.0.0, os.arch=amd64, java.runtime.version=1.8.0_191-b12, source=flush, os.version=10.0, timestamp=1553826960463}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])))}
+2019-03-29 02:36:00.556 INFO  (qtp1014166943-38) [   x:fluig] o.a.s.u.p.LogUpdateProcessorFactory [fluig]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 90
+2019-03-29 02:36:05.852 INFO  (qtp1014166943-16) [   x:fluig] o.a.s.c.S.Request [fluig]  webapp=/solr path=/select params={q=*:*&_=1553826152888} hits=3 status=0 QTime=0
+2019-03-29 02:37:42.786 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@65e61854{HTTP/1.1,[http/1.1, h2c]}{0.0.0.0:8983}
+2019-03-29 02:37:42.786 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2019-03-29 02:37:42.802 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=2106900153
+2019-03-29 02:37:42.802 INFO  (coreCloseExecutor-15-thread-1) [   x:fluig] o.a.s.c.SolrCore [fluig]  CLOSING SolrCore org.apache.solr.core.SolrCore@79c609ab
+2019-03-29 02:37:42.802 INFO  (coreCloseExecutor-15-thread-1) [   x:fluig] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.fluig, tag=79c609ab
+2019-03-29 02:37:42.802 INFO  (coreCloseExecutor-15-thread-1) [   x:fluig] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@f938ea9: rootName = null, domain = solr.core.fluig, service url = null, agent id = null] for registry solr.core.fluig / com.codahale.metrics.MetricRegistry@c5fe9fb
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@31e75d13: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node / com.codahale.metrics.MetricRegistry@72522d89
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@6f603e89: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm / com.codahale.metrics.MetricRegistry@29c56a4a
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2019-03-29 02:37:42.817 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@2756c0a7: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty / com.codahale.metrics.MetricRegistry@53856e85
+2019-03-29 02:37:42.833 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@6a2b953e{/solr,null,UNAVAILABLE}{C:\Fluig\source\looking-code\solr-8.0.0\server/solr-webapp/webapp}
